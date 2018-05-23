@@ -72,4 +72,3 @@ variable "dev_state_file" {
 variable "price_class" {
   default = "PriceClass_All"
 }
-
