@@ -1,8 +1,8 @@
 # DEVELOPMENT
 
 locals {
-  tld         = "${var.env}.${var.fqdn}"
-  fqdn        = "${var.stack}.${local.tld}"
+  tld  = "${var.env}.${var.fqdn}"
+  fqdn = "${var.stack}.${local.tld}"
 }
 
 data "aws_availability_zones" "available" {}

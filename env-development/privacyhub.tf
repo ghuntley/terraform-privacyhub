@@ -13,7 +13,7 @@ module "privacyhub" {
   bucket_name                            = "${data.aws_s3_bucket.bucket.id}"
   create_bucket                          = false
   s3_region                              = "${data.aws_region.us-east-1.name}"
-  cloudfront_fqdn                        = "${local.tld}"
+  cloudfront_fqdn                        = "${local.fqdn}"
   cloudfront_origin_path                 = "/${var.stack}"
   cloudfront_origin_access_identity_path = "${var.cloudfront_origin_access_identity_path}"
   cloudfront_price_class                 = "${var.price_class}"
