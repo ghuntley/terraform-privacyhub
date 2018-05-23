@@ -8,7 +8,6 @@ locals {
 data "aws_availability_zones" "available" {}
 
 data "aws_region" "current" {
-  current = true
 }
 
 data "aws_region" "us-east-1" {

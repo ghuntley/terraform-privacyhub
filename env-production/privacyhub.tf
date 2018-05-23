@@ -1,4 +1,4 @@
-# privacyhub.dev.asics.digital
+# privacyhub.prod.asics.digital
 
 locals {
   bucket_name = "static-asics-services-${var.env}-${data.aws_region.us-east-1.name}"
