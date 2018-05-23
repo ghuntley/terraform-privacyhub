@@ -68,3 +68,8 @@ variable "staging_state_file" {
 variable "dev_state_file" {
   default = "terraform-privacyhub/state/dev/dev.tfstate"
 }
+
+variable "price_class" {
+  default = "PriceClass_All"
+}
+

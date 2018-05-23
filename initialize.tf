@@ -8,10 +8,6 @@ variable "fqdn" {
   type = "string"
 }
 
-variable "vpc_id" {
-  type = "string"
-}
-
-variable "aws_key_name" {
+variable "cloudfront_origin_access_identity_path" {
   type = "string"
 }
